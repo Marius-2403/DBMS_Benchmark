@@ -3,7 +3,7 @@
 ## 1. Projekt Klonen 
 - Neuen Ordner an einer beliebigen Stelle erstellen.
 - Repository in den neuen ordner mit PyCharm Klonen.
-- Bei der Frage, ob eine Virtuelleumgebeung erzeugt werden soll zustimmen.
+- Bei der Frage, ob eine virtuelle Umgebung erzeugt werden soll zustimmen.
 
 ## 3. sql_server_connection Einstellen
 - Zuerst sollte in Microsoft SQl Server Management Studio auf einem Server eine neue Datenbank erstellt werden.
