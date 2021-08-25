@@ -21,7 +21,7 @@ def initialize_window():
     if os.path.isfile("sqlite_cross_join.db"):
         os.remove("sqlite_cross_join.db")
 
-    print("Connecting to SQL-Server Database")
+    print("Connecting to SQL-Server Database...")
     connection = pyodbc.connect('Driver={SQL Server};'
                                 f'Server={sql_server_connection.server};'
                                 f'Database={sql_server_connection.database};'
