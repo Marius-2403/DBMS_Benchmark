@@ -27,7 +27,7 @@ def delete_speedtest(size):
                             Datum text, Zahl int)''')
 
     # Fill the Database
-    for x in range(100000):
+    for x in range(size):
         cursor.execute(f"INSERT INTO numbers VALUES ('{datetime.now().time()}','{x}')")
 
     # Deletes the Data

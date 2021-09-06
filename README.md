@@ -12,4 +12,8 @@
 ## 3. main.py
 - Nach dem Ausführen der vorherigen Schritte sollte man die main.py starten können.
 - Sollte beim Ausführen nach einen Interpreter gefragt werden, einfach einen aktuellen auswählen.
+- Sollte keine Installation des pyodbc requirements vorhanden sein, 
+  - kann dies in der Python Konsole mit "pip install pyodbc" installiert werden oder
+  - oder, wenn das nicht funktioniert, in der gui/window.py auf das pyodbc import Statement gehen und
+  "install package" in den "Quick-Fixes" auswählen.
 - Zum Schreiben des Programmes wurde Python 3.8 genutzt.
