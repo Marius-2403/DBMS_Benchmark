@@ -100,9 +100,9 @@ def create_description(root):
                                     "10: 0.1464676 Sekunden\n" \
                                     "\n" \
                                     "1.000.000 Datensätze: \n" \
-                                    "1: --- Sekunden \n" \
-                                    "5: --- Sekunden \n" \
-                                    "10: --- Sekunden\n" \
+                                    "1: 0,130463 Sekunden \n" \
+                                    "5: 0,455117 Sekunden \n" \
+                                    "10: 0,882923 Sekunden\n" \
                                     "\n"
 
     order_by_messagebox_content = "Beim Order By Speedtest, wird die Zeit berechnet, die das DBMS braucht, um eine " \
@@ -121,7 +121,7 @@ def create_description(root):
                                   "SQL-Server:\n" \
                                   "100.000: 0.020337 Sekunden\n" \
                                   "1.000.000: 0.2848357 Sekunden\n" \
-                                  "10.000.000: --- Sekunden"
+                                  "10.000.000: 3,44383 Sekunden (Dauert ca. 30 Minuten)"
 
     update_messagebox_content = "Beim Update Speedtest, wird die Zeit berechnet, die das DBMS braucht, um alle " \
                                 "Datensätze einer Tabelle upzudaten. Mit den Knöpfen kann man die größe der " \
