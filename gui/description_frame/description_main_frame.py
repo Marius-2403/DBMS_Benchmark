@@ -24,10 +24,10 @@ def create_description(root):
 
     input_messagebox_content = "Beim Input Speedtest wird getestet, wie schnell man die Datenbank mit Daten befüllen " \
                                "kann. Dabei wird eine Datenbank erzeugt, die mit Daten gefüllt wird und danach " \
-                               "wieder gelöscht wird. Die Zeit, die die Datenbank zum befüllen braucht wird " \
+                               "wieder gelöscht wird. Die Zeit, die die Datenbank zum befüllen braucht, wird " \
                                "gemessen. Die Zahlen auf den Knöpfen repräsentieren dabei die Anzahl an Datensätzen, " \
                                "die in die Datenbank geschrieben werden. Bei den Datensätzen handelt es sich um die " \
-                               "aktuelle Zeit und eine zufällig Zahl zwischen 0 und 100. \n" \
+                               "aktuelle Zeit und eine zufällige Zahl zwischen 0 und 100. \n" \
                                "\n" \
                                "Durchschnittliche Ergebnisse auf meinem Computer: \n" \
                                "\n" \
@@ -65,7 +65,7 @@ def create_description(root):
                                     "dabei aus zwei gleich großen Tabellen, die mit dem Cross Join verbunden werden. " \
                                     "Beide Tabellen werden mit der aktuellen Zeit und einer einzigartigen Zahl " \
                                     "befüllt. Bei der Suche, wird dann nach einem Datensatz, mit zwei bestimmten " \
-                                    "Zahlen gesucht. Mit den 1, 5, 10 Knöpfen kann man Einstellen, wie oft gesucht " \
+                                    "Zahlen gesucht. Mit den 1, 5, 10 Knöpfen kann man einstellen, wie oft gesucht " \
                                     "werden soll. Mit den anderen Knöpfen kann man die Anzahl der Datensätze in den " \
                                     "Datenbanken bestimmen, die dann mit dem Cross Join verbunden werden. \n" \
                                     "\n" \
@@ -109,7 +109,7 @@ def create_description(root):
                                   "Datenbank mit dem ORDER BY Befehl zu sortieren. Dafür wird eine Datenbank mit " \
                                   "100.000, 1.000.000. oder 10.000.000 Datensätzen erzeugt. Die Datensätze bestehen " \
                                   "aus der aktuellen Zeit und einer zufälligen Zahl zwischen 0 und 1000. Es werden " \
-                                  "dann alle Datensätze abgefragt und Aufsteigend nach der Zahl sortiert. \n" \
+                                  "dann alle Datensätze abgefragt und aufsteigend nach der Zahl sortiert. \n" \
                                   "\n" \
                                   "Durchschnittliche Ergebnisse auf meinem Computer: \n" \
                                   "\n" \
@@ -124,11 +124,11 @@ def create_description(root):
                                   "10.000.000: 3,44383 Sekunden (Dauert ca. 30 Minuten)"
 
     update_messagebox_content = "Beim Update Speedtest, wird die Zeit berechnet, die das DBMS braucht, um alle " \
-                                "Datensätze einer Tabelle upzudaten. Mit den Knöpfen kann man die größe der " \
+                                "Datensätze einer Tabelle upzudaten. Mit den Knöpfen kann man die Größe der " \
                                 "Datenbank bestimmen, die geupdatet werden soll. Für den Test wird eine Datenbank " \
                                 "mit der ausgewählten Anzahl an Datensätzen erstellt und danach wieder gelöscht. " \
-                                "Die Datensätze bestehen aus dem aktuellen Datum und einer Einzigartigen Zahl. " \
-                                "Bei dem Updateprozess werden alle Zahlen, die vorher generiert wurden, mit neuen " \
+                                "Die Datensätze bestehen aus dem aktuellen Datum und einer einzigartigen Zahl. " \
+                                "Bei dem Update Prozess werden alle Zahlen, die vorher generiert wurden, mit neuen " \
                                 "ersetzt. \n" \
                                 "\n" \
                                 "Durchschnittliche Ergebnisse auf meinem Computer: \n" \
